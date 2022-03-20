@@ -1,0 +1,31 @@
+.box {
+  width: 100px;
+  height: 150px;
+  background: purple;
+  position: relative;
+  animation: mover 5s infinite;
+  transition: all 100ms;
+}
+
+@keyframes mover {
+  0% {
+    top: 0px;
+    left: 15px;
+    transition: all 100ms;
+  }
+  25% {
+    top: 200px;
+    left: 55px;
+    transition: all 100ms;
+  }
+  75% {
+    top: 50px;
+    left: 35px;
+    transition: all 100ms;
+  }
+  100% {
+    top: 100px;
+    left: 20px;
+    transition: all 100ms;
+  }
+}
